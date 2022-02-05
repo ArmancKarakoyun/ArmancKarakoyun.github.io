@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mechanical Design Engineer - Armanc Karakoyun</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Home</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">About</a></li>
+							<li class="active"><a href="generic.html">Project</a></li>
+							<!--<li><a href="elements.html">Team</a></li>-->
+						</ul>
+						<ul class="icons">
+							<li><a href="Armanc_Karakoyun_Resume.pdf" style="background-color:white" class="button small" target="_blank" rel="noopener noreferrer">Curriculum Vitae </a></li>
+							<li><a href="https://www.linkedin.com/in/armanc-karakoyun/" class="icon brands fa-linkedin"  target="_blank" rel="noopener noreferrer"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/ArmancKarakoyun" class="icon brands fa-github"  target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+				<div id="main">
+
+					<!-- Featured Post --> 
+						<article class="post featured">
+							<header class="major">
+								
+								<h3>DEVELOPMENT OF SURGICAL INSTRUMENTS FOR ROBOT- ASSISTED <br />
+									BIPORTAL ENDOSCOPIC SPINE SURGERY(BESS)</h3>
+								
+                                    <p>In this section, the mechanism and design requirements for BESS tools will be explained.</p>
+										
+							</header>
+							<a href="BESS_Tools.html" class="image" target="_blank" rel="noopener noreferrer"><img src="images/Fig_2_Updated.png" widht= 450 height= 500 alt="" /></a>
+							<ul class="actions special">
+							</ul>
+                            <article>
+                                <head>
+                                    <style>
+                                    div {
+                                      text-align: justify;
+                                      text-justify: inter-word;
+                                    }
+                                    </style>
+                                    </head>
+                                    <body>
+                                    <div>
+                                        <p>Before explaining the mechanism, it is necessary to understand what BESS is and what benefits it  provides to both surgeons and patients.</p>
+                                        
+                                               <b> 1.) What is the BESS and its pros and cons? </b>
+  
+                                        <p> 
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Biportal Endoscopic Spine Surgery (BESS) is one of the Minimally Invasive Surgery (MIS) techniques for decompression in spine surgery, 
+                                            where decompression procedure is performed through two small incisions, one for the endoscope and the other for surgical instruments as shown in Fig. 1
+                                            and it provides several advantages such as less blood loss, pain and tissue trauma, short recovery time and smaller scars in terms of patient. However, it increases the
+                                            burden on surgeons` shoulders. Since BESS performed through two small incisions, surgeons` one hand is supposed to control the endoscopic camera, and they can only be use
+                                            one hand to pursue the operation.When long operation time and learning period are taken into consideration, it can be exhausting for surgeons.</br>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;As a MIS technique BESS relies on intraoperative navigation (fluoroscopy).  Fluoroscopy is known as a source of ionizing radiation. 
+                                            The ionizing radiation causes many diseases from tissue damage to solid organ malignancy. 
+                                            Since intraoperative navigation is used during the BESS, the amount of radiation that surgeons are exposed to is high when it is compared with open surgery.
+                                            During open surgery, the average radiation exposure to the surgeon is 0.16-0.22 mR for thyroid/eye, 0.21-0.23 mR for chest, and 0.20-0.14 mR for hands, while in a MIS, 
+                                            it is 1.72-1.52 mR for thyroid/eye, 3.08-2.93 for chest and 4.45-4.75 mR for hands[6].
+                                        </p>
+                                                <b>2.) How to decrease the burden on surgeons` shoulders?</b>
+                                            
+                                        <p>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;Robot-assistance in MIS cannot only improve the dexterity and performance of surgeons 
+                                            and offer an ergonomic working condition to surgeons, but also can significantly decrease 
+                                            the radiation exposure to the surgeons and patients during surgery [7]. 
+                                        </p>
+                                                <b>3.) Why do we need to design a new tool?, Doesn't already the spine surgical robot exist ?</b>
+                                            
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;Currently, many robotic-assisted systems have been used for different spine surgeries [8–14]. 
+                                                Mazor: Spine Assist, Mazor: Renaissance, Mazor: Mazor X, Rosa Spine, Intuitive Surgical: Da Vinci Surgical System,
+                                                and Globus Medical: Excelsius GPS are some of the commercially available surgical robotic systems used for spine surgery. 
+                                                However, the use of these robotic system has been mainly focused on stabilization procedure during which the robots guide the placement of pedicle screws and instrumentation.
+                                                Researches on robot assisted MIS system for decompression procedure is still in its infancy.
+                                            </p>
+                                       
+                                        
+                                                <b>4.) Here, what I have done about the BESS tools.</b>
+                                         
+                                            <p>
+                                                &nbsp;&nbsp;&nbsp;&nbsp;As a part of development of tele-operated robot system for BESS, Three most used instruments in BESS, <b>punch</b>, <b>pituitary</b>, and <b>shaver</b> been redesigned and motorized to be used with a tele-operated surgical robot. 
+                                                Design requirement analysis, design and preliminary test result of the instrument is presented.</p></br>
+                                                <style>
+                                                    img {
+                                                     
+                                                      float: right;
+                                                    }
+                                                    </style>
+                                                <img src="images/Fig_3_Mechanism.png" alt="" align="right" >
+                                                                                                    
+                                                    
+                                                <ul>
+                                                    <li> 
+                                                        <b>DESIGN REQUIREMENTS OF PUNCH & PITUITARY</b> 
+                                                    </li>
+                                                </ul>
+                                                <p>Punch and pituitary shares same driver mechanism, as both instruments need same 2DoFs - rotation of the instrument about its major axis, and the grasping. 
+                                                    Fig. 4 shows the cross section of the driver mechanism.</p>
+                                                    <p> The design requirements for Kerrison Punch and Pituitary Rongeurs are as followed:</br>
+                                                        <style>
+                                                        ol {
+                                                            margin: 0 0 1.5em;
+                                                            padding: 0;
+                                                            counter-reset: item;
+                                                          }
+                                                          
+                                                          ol > li {
+                                                            margin: 0;
+                                                            padding: 0 0 0 2em;
+                                                            text-indent: -2em;
+                                                            list-style-type: none;
+                                                            counter-increment: item;
+                                                          }
+                                                          
+                                                          ol > li:before {
+                                                            display: inline-block;
+                                                            width: 1em;
+                                                            padding-right: 0.5em;
+                                                            font-weight: bold;
+                                                            text-align: right;
+                                                            content: counter(item) ".";
+                                                          }
+                                                        </style>
+                                                            <ol>
+                                                                <li>During the spine surgery, Kerrison Punch and Pituitary Rongeurs are used to grasp and tear the bones and tissues. For punch and pituitary, 2DoFs - rotation of the instrument about its major axis, and the grasping is needed, as shown in Fig. 2a, b. </li>
+                                                                <li>To provide 2 DoFs, a two-axis shaft mechanism was used, and motors are planned to be fixed on the robotic arm as seen in Fig. 2d and Fig. 4. Since the distance between motors is constant and motors will be embedded on the robotic arm, the distance between the shafts has been kept constant for all three instruments to design a tool exchange adapter.</li>
+                                                                <li>The driving mechanism must provide sufficient force to cut the tissues and bones. Since the punch is used to cut stiffer tissue than the pituitary, experiment was performed to identify the force required by the punch to cut the spine bone.</li>
+                                                            </ol> 
+
+                                                <ul>
+                                                    <li> 
+                                                        <b>DESIGN REQUIREMENTS OF SHAVER</b> 
+                                                    </li>
+                                                </ul>
+                                                <img src="images/Fig_4_Shaver_Mechanism.png" alt=""  >
+                                                <p> 
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;During the spine surgery, shavers are used to grind the bones. Shaver driving mechanism is designed such that the hand piece of the commercial shaver 
+                                                    (Advantage Turbo from CONMED) can be mounted without modifications. Since the hand piece provides the rotation of the blades for grinding, only 1 DoF, 
+                                                    rotation of the instrument about its major axis, needs to be provided by the shaver driver, as shown in Fig. 2c. 
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;Fig. 5 shows the shaver driver mechanism. The required roll motion is transmitted from driver gear to a driven gear specially designed to fit on the surface of the hand piece.
+                                                    The distance between the rotation axis of the hand piece and the driver gear is same as that of the punch/pituitary driver,
+                                                    so that both instruments can share same mechanical interface on the surgical robot arm. The gear ratio is 3:1. 
+                                                    Full rotation of the driven gear is blocked with 2 stopper screw that placed on the designed gear (see Fig. 5).
+                                                </p>
+                                                
+                                                <ul>
+                                                    <li> 
+                                                        <b>COMPUTER AIDED DESIGN PROCESS & MANUFACTURING</b> 
+                                                    </li>
+                                                </ul>
+                                                <p>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;The instruments were designed using SOLIDWORKS 2019 Student Version. Almost all the plastic parts have been printed through the Hp 
+                                                    Jet Fusion 4200 3D printer. Sand blasting has been applied as surface finishing process. Only the parts that bearings were placed have been 
+                                                    machined from fiberglass reinforced nylon. The blades for punch and pituitary are taken from Kerrison Smith (PAH 03.23) and Pituitary Rongeurs (Kasco 3mm) 
+                                                    and machined in accordance with the design.
+                                                    You can see the CAD design and fast prototype of the final product in the following figure.
+
+
+                                                </p>
+                                                    <style>
+                                                        * {
+                                                            box-sizing: border-box;
+                                                        }
+                                                        .column {
+                                                            float: center;
+                                                            width: 50%;
+                                                            padding: 10px;
+                                                        }
+                                                        
+                                                        /* Clearfix (clear floats) */
+                                                        .row::after {
+                                                            content: "";
+                                                            clear: both;
+                                                            display: table;
+                                                        }
+                                                        </style>
+                                                        </head>
+                                                        <body>
+                                                                                                                                                                  
+                                                        <div class="row">
+                                                            <div class="column">
+                                                            <img src="images/Fig_5_CAD_Design.jpg" alt="CAD" style="width:100%">
+                                                            </div>
+                                                            <div class="column">
+                                                            <img src="images/Fig_6_PoC.png" alt="Real" style="width:100%">
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        </body>
+                                            </p>
+                                    </div>
+                            </article>
+						</article>
+					
+                     <!--<footer>
+                        <div class="pagination">
+                            <a id="bess_tools" class="previous">Previous</a>
+                           <a href="#" class="page active">1</a>
+                            <a href="#" class="page">2</a>
+                            <a href="#" class="page">3</a>
+                            <span class="extra">&hellip;</span>
+                            <a href="#" class="page">8</a>
+                            <a href="#" class="page">9</a>
+                            <a href="#" class="page">10</a>
+                            <a href="BESS_Tools.html" class="next">Next</a>
+                        </div>
+                    </footer>-->
+
+					</div>
+					<!-- Posts 
+						<section class="posts">
+							<article>
+								<header>
+									<h4><a href="BESS_Tools.html" target="_blank" rel="noopener noreferrer">DEVELOPMENT OF SURGICAL INSTRUMENTS FOR ROBOT- ASSISTED <br />
+										BIPORTAL ENDOSCOPIC SPINE SURGERY(BESS)<br />
+									</a></h4>
+								</header>
+								<img src="images/Fig_2_Updated.png" alt="" width="350" height="400"/></a>
+								<p>Robots are being widely used for minimally invasive surgery in various specialties.
+								However, for minimally invasive spine surgery, the application of the robots has been limited to guidance of instrument placement.
+								This design, as a part of the development of a tele-operated surgical robot for biportal endoscopic spine surgery have been presented.
+								<i>Surgical punch, pituitary and shaver</i>, the instruments most widely used for bone and tendon removal in spine surgery,
+								is modified for the surgical robot...</p>
+								<ul class="actions special">
+									<li><a href="BESS_Tools.html" class="button" target="_blank" rel="noopener noreferrer">Read More</a></li>
+								</ul>
+							</article>
+
+							<article>
+								<header>
+									<h3><a href="#">Debris cleaning cannula design</a></h3>
+								</header>
+								<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+								<ul class="actions special">
+									<li><a href="#" class="button">Read More</a></li>
+								</ul>
+							</article>
+
+							<article>
+								<header>
+									<h3><a href="#">Torque Transmission Mechanism & Adapter </a></h3>
+								</header>
+								<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+								<ul class="actions special">
+									<li><a href="#" class="button">Read More</a></li>
+								</ul>
+							</article>
+
+							<article>
+							</article>
+
+							<article>
+							</article>
+							
+							</section>
+							
+-->
+						</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>Korea Institute of Science and Technology (KIST), Seoul, Republic of Korea <br />
+								</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">armanc@kist.re.kr</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									
+									<li><a href="https://www.linkedin.com/in/armanc-karakoyun/" class="icon brands fa-linkedin"  target="_blank" rel="noopener noreferrer"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/ArmancKarakoyun" class="icon brands fa-github"  target="_blank" rel="noopener noreferrer"><span class="label">GitHub</span></a></li>
+									
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
